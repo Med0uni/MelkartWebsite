@@ -22,7 +22,7 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
-      <br></br><br></br>
+   
       <Aboutus />
       <br></br><br></br>
       <Services />

@@ -6,6 +6,8 @@ import Router from "next/router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer";
 import PageChange from "components/PageChange/PageChange.js";
+import Hero from "../components/Hero" ;
+//import Nav from "../components/Nav";
 
 import "assets/scss/nextjs-material-kit.scss?v=1.1.0";
 
@@ -48,7 +50,7 @@ export default class MyApp extends App {
           <title>MELKART</title>
         </Head>
         <Navbar />
-      
+        <Hero />
         <Component {...pageProps} />
         <Footer />
       </React.Fragment>

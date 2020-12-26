@@ -4,9 +4,25 @@ import React from "react";
 export default function AboutJE() {
     
     return (
-      <div>
-        JE concept
-      
-      </div>
+      <div class="site-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="https://jetunisie.com/wp-content/uploads/2018/05/JETV0.png" width="250" height="300" alt="Image" class="img-responsive img-rounded"></img>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-5">
+						<h2>The Confederation - Junior Enterprises Of Tunisia (JET)</h2>
+						<p>JET is the Tunisian Confederation of Junior Enterprises. It is a support structure, which comes to oversee and guide the Junior Enterprises in their work and training.
+
+						Founded in 2012 by four Junior Enterprises, JET was launched with the aim of expanding the network of Junior Entrepreneurs in Tunisia and to represent them worldwide.
+
+						In 2020, JET federates 37 Junior Enterprises spread across the Tunisian territory. Their areas of expertise include engineering, business and management, design, political and legal sciences, biotechnology, agronomy and much more.
+
+					 </p>
+					</div>
+				</div>
+			</div>
+		</div>
     );
   }

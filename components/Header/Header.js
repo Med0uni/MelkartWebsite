@@ -17,6 +17,11 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "assets/jss/nextjs-material-kit/components/headerStyle.js";
 
+import white from "../White.png";
+import blue from "../Blue.png";
+import "./Header.css"
+
+
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
@@ -61,10 +66,20 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
-  const brandComponent = (
-    <Link href="/components" as="/components">
-      <Button className={classes.title}>{brand}</Button>
-    </Link>
+
+/*
+  let logo = () => {
+    const windowsScrollTop = window.pageYOffset;
+    if (windowsScrollTop > changeColorOnScroll.height) {logo = "../White.png"}
+    else{logo = "../Blue.png"}
+  }*/
+  const brandComponent = (  
+    <Link href="/home" as="/home">
+      <Button classname='brand'>
+      <img classname='brand' src= {blue} width="100" height="95"></img>
+      </Button>  
+  </Link>
+    
   );
   return (
     <AppBar className={appBarClasses}>

@@ -1,91 +1,99 @@
-/*eslint-disable*/
+
 import React from "react";
-// nodejs library to set properties for components
-import PropTypes from "prop-types";
-// nodejs library that concatenates classes
-import classNames from "classnames";
-// material-ui core components
-import { List, ListItem } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import Link from "next/link";
+import './Footer.css'
 
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
-
-import styles from "assets/jss/nextjs-material-kit/components/footerStyle.js";
-
-const useStyles = makeStyles(styles);
-
-export default function Footer(props) {
-  const classes = useStyles();
-  const { whiteFont } = props;
-  const footerClasses = classNames({
-    [classes.footer]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
-  const aClasses = classNames({
-    [classes.a]: true,
-    [classes.footerWhiteFont]: whiteFont
-  });
+function Footer() {
   return (
-    <footer className={footerClasses}>
-      <div className={classes.container}>
-        <div className={classes.left}>
-          <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Creative Tim
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
-          </List>
+    <div className='footer-container'>
+      <section className='footer-subscription'>
+        <p className='footer-subscription-heading'>
+          Join the Melkart newsletter to receive our best blogs
+        </p>
+        <p className='footer-subscription-text'>
+          You can unsubscribe at any time.
+        </p>
+        <div className='input-areas'>
+          <form>
+            <input
+              className='footer-input'
+              name='email'
+              type='email'
+              placeholder='Your Email'
+            />
+            <button className='btn--outline'>Subscribe</button>
+          </form>
         </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=njsmk-footer"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+      </section>
+      <div class='footer-links'>
+        <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>About Us</h2>
+            <Link href='/sign-up'>Enicar</Link>
+            <Link href='/'>JET</Link>
+            <Link href='/'>Melkart</Link>
+            <Link href='/'>Our team</Link>
+          </div>
+          <div class='footer-link-items'>
+            <h2>Contact Us</h2>
+            <Link href='/'>Contact</Link>
+            <Link href='/'>Support</Link>
+            <Link href='/'>Projects</Link>
+            <Link href='/'>Sponsorships</Link>
+          </div>
+        </div>
+        <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>Social Media</h2>
+            <Link href='https://www.instagram.com/melkart_je'>Instagram</Link>
+            <Link href='https://www.facebook.com/Enicarthage.Junior.Entreprise/'>Facebook</Link>
+            <Link href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured'>Youtube</Link>
+            <Link href='https://www.linkedin.com/company/melkart-je/'>Linkedin</Link>
+          </div>
         </div>
       </div>
-    </footer>
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+          <small class='website-rights'>Melkart JE © 2020</small>
+          <div class='social-icons'>
+            <div>
+            <Link
+              class='social-icon-link facebook'
+              href='https://www.facebook.com/Enicarthage.Junior.Entreprise'
+              target='_blank'
+              aria-label='Facebook'
+            >
+              <i class='fab fa-facebook-f' />
+            </Link> </div>
+            <Link
+              class='social-icon-link instagram'
+              href='https://www.instagram.com/melkart_je'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i class='fab fa-instagram' />
+            </Link>
+            <Link
+              class='social-icon-link youtube'
+              href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <i class='fab fa-youtube' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              href='https://www.linkedin.com/company/melkart-je/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin' />
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
 
-Footer.propTypes = {
-  whiteFont: PropTypes.bool
-};
+export default Footer;
