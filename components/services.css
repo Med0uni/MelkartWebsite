@@ -1,43 +1,70 @@
-
 .services {
-    position: relative;
-    padding: 30px;
-    margin-bottom: 60px;
-    background: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.07);
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s; }
-    .services strong {
-      font-weight: normal;
-      color: #000; }
-    .services h3 {
-      font-weight: 400; }
-      .services h3 a {
-        color: #3f52e3; }
-    .services .icon {
-      text-align: center;
-      margin: 0 auto;
-      margin-bottom: 20px;
-      width: 70px;
-      height: 70px;
-      display: table;
-      -webkit-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
-      .services .icon i {
-        display: table-cell;
-        vertical-align: middle;
-        height: 70px;
-        font-size: 60px;
-        line-height: 40px;
-        color: #3f52e3; }
-    .services:hover, .services:focus {
-      background: #3f52e3;
-      color: rgba(255, 255, 255, 0.7); }
-      .services:hover h3 a, .services:focus h3 a {
-        color: #fff; }
-      .services:hover .icon i, .services:focus .icon i {
-        color: #fff; }
-      .services:hover strong, .services:focus strong {
-        color: #fff; }
+  position: relative;
+  padding: 30px;
+  margin-bottom: 60px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.services .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.services .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.services .icon i {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #2f5b96;
+  font-size: 40px;
+  overflow: hidden;
+  padding-top: 20px;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.services .icon-box:hover .icon i {
+  box-shadow: 0px 0 25px #2f5b96;
+}
+
+.services .title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.services .title a {
+  color: #444444;
+  transition: 0.3s;
+}
+
+.services .title a:hover {
+  color: #2f5b96;
+}
+
+.services .title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #2f5b96;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.services .description {
+  line-height: 24px;
+  font-size: 14px;
+}

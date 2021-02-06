@@ -1,0 +1,56 @@
+.why-us {
+  position: relative;
+  padding: 30px;
+  margin-bottom: 60px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.why-us strong {
+  font-weight: normal;
+  color: #000;
+}
+.why-us h3 {
+  font-weight: 400;
+}
+.why-us h3 a {
+  color: #2f5b96;
+}
+.why-us .icon {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  display: table;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.why-us .icon i {
+  display: table-cell;
+  vertical-align: middle;
+  height: 70px;
+  font-size: 60px;
+  line-height: 40px;
+  color: #2f5b96;
+}
+.why-us:hover,
+.why-us:focus {
+  background: #2f5b96;
+  color: rgba(255, 255, 255, 0.7);
+}
+.why-us:hover h3 a,
+.why-us:focus h3 a {
+  color: #fff;
+}
+.why-us:hover .icon i,
+.why-us:focus .icon i {
+  color: #fff;
+}
+.why-us:hover strong,
+.why-us:focus strong {
+  color: #fff;
+}

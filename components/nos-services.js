@@ -1,87 +1,39 @@
 import React from "react";
 import "./services.css"
 
+
+
 export default function Services() {
-    
-    return (
-      <div className="ftco-practice">
-		<div className="container">
-			<div className="row animate-box">
-				<div className="col-md-8 col-md-offset-2 text-center ftco-heading">
-					<h2>Nos services</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-				</div>
-			</div>
-			<div className="row">
-				<div className="col-md-4 text-center animate-box">
-					<div className="services">
-						<span className="icon">
-							<i className="flaticon-courthouse"></i>
-						</span>
-						<div className="desc">
-							<h3><a href="#">lorem ipsum</a></h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 text-center animate-box">
-					<div className="services">
-						<span className="icon">
-							<i className="flaticon-padlock"></i>
-						</span>
-						<div className="desc">
-							<h3><a href="#">lorem ipsum</a></h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 text-center animate-box">
-					<div className="services">
-						<span className="icon">
-							<i className="flaticon-folder"></i>
-						</span>
-						<div className="desc">
-							<h3><a href="#">lorem ipsum</a></h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 text-center animate-box">
-					<div className="services">
-						<span className="icon">
-							<i className="flaticon-handcuffs"></i>
-						</span>
-						<div className="desc">
-							<h3><a href="#">lorem ipsum</a></h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 text-center animate-box">
-					<div className="services">
-						<span className="icon">
-							<i className="flaticon-handcuffs"></i>
-						</span>
-						<div className="desc">
-							<h3><a href="#">lorem ipsum</a></h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 text-center animate-box">
-					<div className="services">
-						<span className="icon">
-							<i className="flaticon-libra"></i>
-						</span>
-						<div className="desc">
-							<h3><a href="#">lorem ipsum</a></h3>
-							<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-    );
-  }
+  // #2F5B96
+  return (
+    <section class="services">
+      <div class="container">
+        <div>
+          <h2 class="title text-center">SERVICES</h2>
+          <p className="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+            <h4 class="title"><a href="">Développement d'applications Mobiles</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="fas fa-desktop"></i></div>
+            <h4 class="title"><a href="">Développement d'applications Desktop</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="fas fa-globe"></i></div>
+            <h4 class="title"><a href="">Développement de sites web</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+                
+          
+        </div>
+
+      </div>
+    </section>
+  );
+}
