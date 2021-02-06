@@ -4,14 +4,14 @@ import React from "react";
 export default function AboutJE() {
     
     return (
-      <div class="site-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<img src="https://jetunisie.com/wp-content/uploads/2018/05/JETV0.png" width="250" height="300" alt="Image" class="img-responsive img-rounded"></img>
+      <div className="site-section">
+			<div className="container">
+				<div className="row">
+					<div className="col-md-6">
+						<img src="https://jetunisie.com/wp-content/uploads/2018/05/JETV0.png" width="250" height="300" alt="Image" className="img-responsive img-rounded"></img>
 					</div>
-					<div class="col-md-1"></div>
-					<div class="col-md-5">
+					<div className="col-md-1"></div>
+					<div className="col-md-5">
 						<h2>The Confederation - Junior Enterprises Of Tunisia (JET)</h2>
 						<p>JET is the Tunisian Confederation of Junior Enterprises. It is a support structure, which comes to oversee and guide the Junior Enterprises in their work and training.
 

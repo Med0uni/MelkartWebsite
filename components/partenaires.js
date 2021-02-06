@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
 // @material-ui/core components
@@ -120,16 +119,3 @@ export default function Partners() {
     </div>
   );
 }
-=======
-
-
-export default function Partners() {
-    
-    return (
-      <div>
-        ils nous ont fait confiance    
-      
-      </div>
-    );
-  }
->>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
