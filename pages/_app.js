@@ -8,7 +8,11 @@ import Footer from "../components/Footer/Footer";
 import PageChange from "components/PageChange/PageChange.js";
 import Hero from "../components/Hero" ;
 //import Nav from "../components/Nav";
+<<<<<<< HEAD
 import icone from "../assets/img/Blue.ico"
+=======
+
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
 import "assets/scss/nextjs-material-kit.scss?v=1.1.0";
 
 Router.events.on("routeChangeStart", url => {
@@ -47,8 +51,12 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
+<<<<<<< HEAD
         <link rel="icon" href="../assets/img/Blue.ico" />
           <title>MELKART Junior Entreprise</title>
+=======
+          <title>MELKART</title>
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
         </Head>
         <Navbar />
         <Hero />

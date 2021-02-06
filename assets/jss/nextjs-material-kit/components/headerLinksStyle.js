@@ -5,7 +5,11 @@ import tooltip from "assets/jss/nextjs-material-kit/tooltipsStyle.js";
 const headerLinksStyle = theme => ({
   list: {
     ...defaultFont,
+<<<<<<< HEAD
     fontSize: "10px",
+=======
+    fontSize: "14px",
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
     margin: 0,
     paddingLeft: "0",
     listStyle: "none",
@@ -41,16 +45,26 @@ const headerLinksStyle = theme => ({
     position: "relative",
     padding: "0.9375rem",
     fontWeight: "500",
+<<<<<<< HEAD
     fontSize: "15px",
+=======
+    fontSize: "18px",
+    textTransform: "uppercase",
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
     borderRadius: "3px",
     lineHeight: "20px",
     textDecoration: "none",
     margin: "0px",
     display: "inline-flex",
     "&:hover,&:focus": {
+<<<<<<< HEAD
       color: "Gray",
       
       
+=======
+      color: "inherit",
+      background: "rgba(200, 200, 200, 0.2)"
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 30px)",
@@ -95,10 +109,15 @@ const headerLinksStyle = theme => ({
     display: "inline-flex"
   },
   navLinkActive: {
+<<<<<<< HEAD
     color: "yellow",
     backgroundColor: "rgba(255, 255, 255, 0.1)",
     
     
+=======
+    color: "inherit",
+    backgroundColor: "rgba(255, 255, 255, 0.1)"
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
   },
   icons: {
     width: "20px",

@@ -35,7 +35,11 @@ export default function Components(props) {
       <br></br><br></br>
       <Collaborate />
       
+<<<<<<< HEAD
       
+=======
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
     </div>
   );
 }

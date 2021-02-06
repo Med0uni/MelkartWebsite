@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ftco-consult{
   width: 100%;
 }
@@ -29,3 +30,8 @@
     background-color: #2F5B96;
     color : black;
   }
+=======
+.video ftco-video{ 
+    background:url('../assets/img/examples/studio-3.jpg');
+}
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca

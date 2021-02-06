@@ -1,8 +1,13 @@
 /*eslint-disable*/
 import React from "react";
+<<<<<<< HEAD
 //import Link from "next/link";
 import './HeaderLinks.css'
 import ActiveLink from './ActiveLink'
+=======
+import Link from "next/link";
+import './HeaderLinks.css'
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -25,6 +30,7 @@ import styles from "assets/jss/nextjs-material-kit/components/headerLinksStyle.j
 const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
+<<<<<<< HEAD
   // go to assets/jss/headerLinksStyle navLink to edit css
   const classes = useStyles();
   //to target the active Link in Next.js(like navLink is active in react)
@@ -57,6 +63,11 @@ export default function HeaderLinks(props) {
           {/*<Link href="/"><div>Home</div></Link>*/}
         </Button>
       </ListItem>
+=======
+  const classes = useStyles();
+  return (
+    <List className={classes.list}>
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
       {/* ---------------------- STRUCTURE -------------------------------*/}
       <ListItem className={classes.listItem}>
       <Button
@@ -64,9 +75,13 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
+<<<<<<< HEAD
           <ActiveLink activeClassName="active" href="/structure">
           <p className="nav-link">Structure</p>
           </ActiveLink>
+=======
+          <Link href="/structure"><div>Structure</div></Link>
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
         </Button>
       </ListItem>
       {/* ---------------------- PRESTATION -------------------------------*/}
@@ -77,9 +92,14 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
+<<<<<<< HEAD
           <ActiveLink activeClassName="active" href="/prestation">
           <p className="nav-link">Prestation</p>
           </ActiveLink>
+=======
+          <Link href="/prestation"><div classname='a'>Prestation</div></Link>
+           
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
         </Button>
       </ListItem>
       {/* ---------------------- BLOG -------------------------------*/}
@@ -90,9 +110,14 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
+<<<<<<< HEAD
           <ActiveLink activeClassName="active" href="/blog">
           <p className="nav-link">Blog</p>
           </ActiveLink>
+=======
+          <Link href="/blog"><div classname='a'>Blog</div></Link>
+          
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
         </Button>
       </ListItem>
       {/* ---------------------- Store -------------------------------*/}
@@ -103,6 +128,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
+<<<<<<< HEAD
           <ActiveLink activeClassName="active" href="/store">
           <p className="nav-link">store</p>
           </ActiveLink>
@@ -122,6 +148,12 @@ export default function HeaderLinks(props) {
 
         </Button>
       </ListItem>
+=======
+          <Link href="/store"><div classname='a'>store</div></Link>
+          
+        </Button>
+      </ListItem>
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
       
       
       

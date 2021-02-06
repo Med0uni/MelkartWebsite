@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .active{
     border-bottom: 2px solid gray;
     color:gray;
@@ -8,4 +9,10 @@
 .nav-link:active{
     /* for an animation on click */
     border-bottom: 2px solid gray;
+=======
+.aaaa{
+    color: #fff;
+    font-weight: bold;
+    font-size: 85px;
+>>>>>>> c0ef724cc47e166956c376082994d192a3fb6eca
 }
