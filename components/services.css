@@ -1,0 +1,43 @@
+
+.services {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 60px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    .services strong {
+      font-weight: normal;
+      color: #000; }
+    .services h3 {
+      font-weight: 400; }
+      .services h3 a {
+        color: #3f52e3; }
+    .services .icon {
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: 70px;
+      height: 70px;
+      display: table;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+      .services .icon i {
+        display: table-cell;
+        vertical-align: middle;
+        height: 70px;
+        font-size: 60px;
+        line-height: 40px;
+        color: #3f52e3; }
+    .services:hover, .services:focus {
+      background: #3f52e3;
+      color: rgba(255, 255, 255, 0.7); }
+      .services:hover h3 a, .services:focus h3 a {
+        color: #fff; }
+      .services:hover .icon i, .services:focus .icon i {
+        color: #fff; }
+      .services:hover strong, .services:focus strong {
+        color: #fff; }
