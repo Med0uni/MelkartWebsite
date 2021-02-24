@@ -1,0 +1,50 @@
+import React from "react";
+import fetch from 'isomorphic-unfetch';
+
+export default function Post({post}){
+  
+
+  return(
+    <div className="container">
+      <br/><br/><br/>
+      <h2>{post.title}</h2>
+      <br/>
+      {post.content}
+      <br/><br/>
+      <br/><br/>
+    </div>
+  )
+}
+
+export async function getStaticPaths(){
+  const { API_URL } = process.env;
+  
+  const res= await fetch(`${API_URL}/posts`);
+  const posts = await res.json();
+
+  const paths = posts.map((post) => ({
+    params: { slug: post.Slug }
+  }));
+  
+
+  return{
+    paths,
+    fallback: false
+  };
+
+
+}
+
+
+export async function getStaticProps({ params }){
+  const { API_URL } = process.env;
+  const { slug } = params; 
+
+  const res = await fetch(`${API_URL}/posts?Slug=${slug}`)
+  const data = await res.json();
+  const post = data[0];
+
+  return{
+    props: {post}
+  };
+}
