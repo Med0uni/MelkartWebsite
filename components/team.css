@@ -1,5 +1,6 @@
 .team
-{   
+{  
+    margin: 75px 0;
 }
 h1
 {text-align: center;
@@ -18,7 +19,8 @@ h1:after
 }
 .profile 
 {
- 
+   margin-top: 25px;
+   margin-right: 20px; 
 }
 .profile.img-box
 {opacity: 1;

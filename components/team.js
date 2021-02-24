@@ -22,7 +22,7 @@ export default function Team() {
 		 	
 		 <h1>Our Team</h1>
         <div className="row">
-            <div className="col-md-3 profile  text-center">
+            <div className="col-md-3 profile text-center">
                <div className="img-box" >
                  <img src ={pres} className="img-responsive"></img>
                     <ul>
@@ -38,7 +38,7 @@ export default function Team() {
        
       
       
-            <div className="col-md-3 profile  text-center">
+            <div className="col-md-3 profile text-center">
                <div className="img-box">
                  <img src ={team2} className="img-responsive"></img>
                     <ul>
@@ -47,43 +47,29 @@ export default function Team() {
                 
                     </ul>
                 </div>
-				<h2>Feres Nefzi</h2>
+				        <h2>Feres Nefzi</h2>
                 <h3>Vice President</h3>
 
 
 		        </div>
-              <div className="col-md-3 profile text-center">
-               <div className="img-box">
-                 <img src ={team7} className="img-responsive"></img>
-                    <ul>
-                    <a href="#"> <li><i class="fab fa-facebook"></i></li> </a>
-                       <a href="#"> <li><i class="fab fa-linkedin-in"></i></li> </a>
-                
-                    </ul>
-                </div>
-				<h2>Alia Chibani</h2>
-                <h3>General Secretory</h3>
-               </div>
-			   
+        
+      
+      
             <div className="col-md-3 profile text-center">
-               <div className="img-box">
-                 <img src ={team8} className="img-responsive"></img>
+               <div className="img-box" >
+                 <img src ={team3} className="img-responsive"></img>
                     <ul>
-                    <a href="#"> <li><i class="fab fa-facebook"></i></li> </a>
+                      <a href="#"> <li><i class="fab fa-facebook"></i></li> </a>
                        <a href="#"> <li><i class="fab fa-linkedin-in"></i></li> </a>
                 
                     </ul>
                 </div>
-				<h2>Amani Mittichi</h2>
-                <h3>Treasurer</h3>
-               </div>
-            
-           
+				<h2>Yasmine Mgarrech</h2>
+                <h3>Human Ressources and training Manager</h3>
+                 
+		        </div>
 
-             
-         </div>
-         <div className="row">
-         <div className="col-md-3 profile  text-center">
+              <div className="col-md-3 profile text-center">
                <div className="img-box">
                  <img src ={team4} className="img-responsive"></img>
                     <ul>
@@ -97,6 +83,8 @@ export default function Team() {
 
 
 		        </div>
+
+
               <div className="col-md-3 profile text-center">
                <div className="img-box">
                  <img src ={team5} className="img-responsive"></img>
@@ -123,21 +111,30 @@ export default function Team() {
                 <h3>Business Development Manger</h3>
                </div>
 
-			    
-			   
-               <div className="col-md-3  profile text-center">
-               <div className="img-box" >
-                 <img src ={team3} className="img-responsive"></img>
+			   <div className="col-md-3 profile text-center">
+               <div className="img-box">
+                 <img src ={team7} className="img-responsive"></img>
                     <ul>
-                      <a href="#"> <li><i class="fab fa-facebook"></i></li> </a>
+                    <a href="#"> <li><i class="fab fa-facebook"></i></li> </a>
                        <a href="#"> <li><i class="fab fa-linkedin-in"></i></li> </a>
                 
                     </ul>
                 </div>
-				<h2>Yasmine Mgarrech</h2>
-                <h3>Human Ressources and training Manager</h3>
-                 
-		        </div>
+				<h2>Alia Chibani</h2>
+                <h3>General Secretory</h3>
+               </div>
+			   <div className="col-md-3 profile text-center">
+               <div className="img-box">
+                 <img src ={team8} className="img-responsive"></img>
+                    <ul>
+                    <a href="#"> <li><i class="fab fa-facebook"></i></li> </a>
+                       <a href="#"> <li><i class="fab fa-linkedin-in"></i></li> </a>
+                
+                    </ul>
+                </div>
+				<h2>Amani Mittichi</h2>
+                <h3>Treasurer</h3>
+               </div>
             </div>
             </div>
 		 </section>
