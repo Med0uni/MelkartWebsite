@@ -1,5 +1,6 @@
 import React from "react";
 import fetch from 'isomorphic-unfetch';
+import ReactMarkdown from "react-markdown";
 
 export default function Post({post}){
   
@@ -9,7 +10,9 @@ export default function Post({post}){
       <br/><br/><br/>
       <h2>{post.title}</h2>
       <br/>
-      {post.content}
+      
+      <ReactMarkdown source={post.content} escapeHtml={false} />
+      
       <br/><br/>
       <br/><br/>
     </div>
