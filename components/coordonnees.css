@@ -1,0 +1,41 @@
+.card {
+    background-color: rgb(255, 255, 255);
+    color: #2F5B96;
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    padding-top: 25px;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.fe {
+    text-align: center;
+    margin-left: 49%;
+    margin-bottom: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+.ge {
+    margin-left: 10%;
+    color: #2F5B96;
+    font-family: 'serif';
+}
