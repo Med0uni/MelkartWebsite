@@ -46,6 +46,7 @@ class MyDocument extends Document {
         </Head>
         <body>
           <div id="page-transition"></div>
+          {/* to set a background image in page transition go to assets/scss/core/ -page-transition.scss 16 */}
           <Main />
           <NextScript />
         </body>

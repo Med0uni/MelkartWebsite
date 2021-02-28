@@ -1,5 +1,5 @@
 import React from "react";
-import Blue from "./Blue.png";
+import Blue from "../assets/img/Blue.png";
 
 export default function About() {
 

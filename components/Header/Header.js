@@ -17,10 +17,9 @@ import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "assets/jss/nextjs-material-kit/components/headerStyle.js";
 
-import white from "../White.png";
+//import white from "../../assets/img/White.png";
 import blue from "../../assets/img/Blue.png";
 import "./Header.css"
-
 
 
 const useStyles = makeStyles(styles);
@@ -78,7 +77,7 @@ export default function Header(props) {
   const brandComponent = (  
     <Link href="/home" as="/home">
       <Button classname='brand'>
-      <img classname='brand' src= {blue} width="80" height="75"></img>
+      <img className='brand' src= {blue} width="80" height="75"></img>
       </Button>  
   </Link>
     

@@ -13,7 +13,6 @@ import Card from "components/Card/Card.js";
  
  
 import image4 from "assets/img/partners/STC.jpg";
- 
 import image1 from "assets/img/partners/LeanPartners.jpg";
 import image5 from "assets/img/partners/LeCadeau.jpg";
 import image6 from "assets/img/partners/sheStarts.png";
@@ -39,7 +38,7 @@ export default function Partners() {
     autoplay: true
   };
   return (
-    <div>
+    <div className="container-fluid">
       <h1> Les Partenaires </h1>
     <div className={classes.section}>
       <div className={classes.container} >
