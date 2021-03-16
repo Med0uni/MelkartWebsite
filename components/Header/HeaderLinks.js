@@ -65,7 +65,7 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           <ActiveLink activeClassName="active" href="/structure">
-          <p className="nav-link">Structure</p>
+          <p className="nav-link">About</p>
           </ActiveLink>
         </Button>
       </ListItem>
@@ -95,7 +95,8 @@ export default function HeaderLinks(props) {
           </ActiveLink>
         </Button>
       </ListItem>
-      {/* ---------------------- Store -------------------------------*/}
+      
+      {/* ---------------------- Store -------------------------------
       <ListItem className={classes.listItem}>
         <Button
          
@@ -109,6 +110,7 @@ export default function HeaderLinks(props) {
           
         </Button>
       </ListItem>
+*/}
       {/* ---------------------- CONTACT -------------------------------*/}
       <ListItem className={classes.listItem}>
       <Button

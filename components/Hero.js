@@ -8,7 +8,11 @@ function Hero() {
     <div className='hero-container' >
       {/*<img src={heroimg}  /> */}
       <h1>Trading legacy carried by youth</h1>
-      <p>Start a project with us</p>
+      <button className="btn btn-primary btn-ghost">Start a project with us</button>
+     
+      
+              
+     
       <div className='hero-btns'>   
       </div>
     </div>

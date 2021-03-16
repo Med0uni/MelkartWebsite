@@ -7,6 +7,11 @@ import youtube from "A:/MelkartWebsite/assets/img/youtube.png";
 import facebook from "A:/MelkartWebsite/assets/img/facebook.png";
 import insta from "A:/MelkartWebsite/assets/img/instagram.svg";
 
+import phone from "../assets/img/ph.png";
+import email from "../assets/img/envelope.png";
+import loc from "../assets/img/local.png";
+
+
 
 
 

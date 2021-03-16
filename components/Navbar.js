@@ -1,7 +1,7 @@
 import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-import white from "./White.png" ;
+//import white from "../../assets/img/White.png" ;
 
 // core components
 import Header from "components/Header/Header.js";

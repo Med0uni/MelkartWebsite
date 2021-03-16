@@ -1,13 +1,10 @@
-.ftco-consult{
-  width: 100%;
-}
-/*.video ftco-video{ 
+.video ftco-video{ 
     background:url('../assets/img/examples/studio-3.jpg');
-}*/
+}
 .parallax {
-    /* The image used 
+    /* The image used */
     background-image: url("../assets/img/project.jpg");
-  */
+  
     /* Set a specific height */
     min-height: 500px; 
   
@@ -29,3 +26,4 @@
     background-color: #2F5B96;
     color : black;
   }
+ 

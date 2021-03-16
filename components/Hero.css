@@ -62,3 +62,14 @@
       width: 100%;
     }
   }
+
+  /* button css */
+.btn{
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+  font-weight: 800;
+}
+.btn:hover{
+  background-color:#2F5B96
+}
