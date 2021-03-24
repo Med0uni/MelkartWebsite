@@ -26,7 +26,6 @@ export default function Card({post}) {
           padding-left: 5px;
           padding-right: 5px;
         }
-
       `}</style>
     </div>
 
