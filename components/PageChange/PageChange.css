@@ -1,7 +1,17 @@
 .svgcontainer{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #fff;
+ 
+  overflow: hidden;
+  background-size: cover;
+      position: fixed;
+      z-index: 9998;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+ 
 }
 
 #logo{
@@ -58,7 +68,7 @@ height: 576px;
 #melkart path:nth-child(6){
   stroke-dasharray: 1050 1052;
   stroke-dashoffset: 1051;
-  animation: line-anim 1.5s ease forwards 1s;
+  animation: line-anim 1.8s ease forwards 1s;
 }
 #melkart path:nth-child(7){
   stroke-dasharray: 768 770;

@@ -9,15 +9,15 @@ export default function Components(props) {
     
     return (
       <div>
-        <br></br><br></br>
+     <br></br><br></br>
         <Aboutje />
-        <br></br><br></br>
+     
         <Aboutus />
-        <br></br><br></br>
+        
         <Infoecole />
-        <br></br><br></br>
+        <br></br>
         <Team />
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       </div>
     );
   }

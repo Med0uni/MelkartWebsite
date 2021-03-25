@@ -4,7 +4,7 @@ import React from "react";
 export default function Enicar() {
     
     return (
-      <div className="site-section">
+      <div className="site-sectionenicar" /*style={{background : "linear-gradient(#f9f9f9, #fff)"}}*/>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-4">

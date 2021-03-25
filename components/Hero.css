@@ -9,6 +9,14 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
   }
+
+  .caption{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+   
+    padding-bottom: 10px;
+  }
   
   .hero-container > h1 {
     color: #fff;

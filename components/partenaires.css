@@ -1,0 +1,46 @@
+.partners-section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(#C5C5C5, #5B7299);
+}
+
+.display-2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+.align-center {
+    text-align: center;}
+
+.display-5{
+        line-height: 1;
+        word-break: break-word;
+        word-wrap: break-word;
+        font-weight: 400;
+}
+.mt-4 {
+    margin-top: 2rem !important;}
+.mt-2{
+    margin-top: .5rem!important;
+}
+.card {
+    transition: all 0.3s;
+    height: fit-content;
+    padding: 1rem 0;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;}

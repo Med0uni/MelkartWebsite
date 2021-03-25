@@ -20,6 +20,7 @@ class MyDocument extends Document {
             sizes="76x76"
             href={require("assets/img/apple-icon.png")}
           />
+          
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
@@ -30,16 +31,11 @@ class MyDocument extends Document {
             href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
             rel="stylesheet"
           />
+          
      
-        {/*<!-- Icomoon Icon Fonts-->*/}
-        
-        <link rel="stylesheet" href="../assets/lawmaker/css/animate.css"/>
         {/*<!-- Bootstrap  -->*/}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="../assets/lawmaker/css/bootstrap.css"/>
-        {/*<!-- Magnific Popup -->*/}
-        <link rel="stylesheet" href="../assets/lawmaker/css/magnific-popup.css"/>
-
+       
         
         
           

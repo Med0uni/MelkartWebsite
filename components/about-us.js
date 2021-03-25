@@ -1,5 +1,6 @@
 import React from "react";
 import Blue from "../assets/img/Blue.png";
+import "./aboutus.css"
 
 export default function About() {
 
@@ -8,8 +9,16 @@ export default function About() {
       <div className="container">
         <div className="row">
           <div className="col-md-7">
-            <h2>The MELKART Junior Enterprise ENICarthage</h2>
-            <p>The MELKART Junior Enterprise was founded in 2012. It is a student organization located at the ENICarthage (National Engineering School of Carthage) through which students take their first steps towards professional life. Its objective is the development of the entrepreneurial spirit, leadership, communication, launching and management of projects by improving the skills of its members through training offered by the different branches of study (lT, industrial and mechatronics). They will then be able to respond to customer demand, provide them with good quality services and will thus be ready to confront the professional world and start their careers on a good basis.
+            <h3>Who are we</h3>
+            <h2>La MELKART Junior Enterprise Enicarthage</h2>
+            <p>La MELKART Junior Entreprise a été créée en 2012. C’est une organisation
+            estudiantine localisée à l’ENICarthage (Ecole Nationale d’Ingénieurs de
+            Carthage) à travers laquelle les étudiants font leurs premiers pas vers la vie
+            professionnelle. Son objectif est le développement de l’esprit
+            entrepreneurial, le leadership, la communication, le lancement et la gestion
+            de projet. Par l’amélioration des compétences des membres à travers des
+            formations proposées par les différentes branches d’études, ils pourront
+            répondre par la suite à la demande des clients et leur fournir des services.
 				 </p>
           </div>
           <div className="col-md-1"></div>
