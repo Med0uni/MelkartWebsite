@@ -11,6 +11,7 @@ import Hero from "../components/Hero" ;
 import icone from "../assets/img/Blue.ico"
 import "assets/scss/nextjs-material-kit.scss?v=1.1.0";
 
+
 Router.events.on("routeChangeStart", url => {
   console.log(`Loading: ${url}`);
   document.body.classList.add("body-page-transition");

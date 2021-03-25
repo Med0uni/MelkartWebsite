@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <div className="site-section">
-      <div className="container">
+      <div className="container-xl">
         <div className="row">
           <div className="col-md-7">
             <h3>Who are we</h3>
@@ -23,7 +23,7 @@ export default function About() {
           </div>
           <div className="col-md-1"></div>
           <div className="col-md-4">
-            <img src={Blue} width="250" height="300" alt="Image" className="img-responsive img-rounded "></img>
+            <img src={Blue} width="250" height="300" alt="Image" className="img-responsive img-rounded"></img>
           </div>
 
 

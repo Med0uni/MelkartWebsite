@@ -16,11 +16,12 @@ export default function AboutJE() {
 				entrepreneurs, TPE, PME, associations , firmes ,etc...</p>
 				</div>
 				<div className="row">
-					<div className="col-md-6">
-						<img src="https://jetunisie.com/wp-content/uploads/2018/05/JETV0.png" width="250" height="300" alt="Image" className="img-responsive img-rounded"></img>
+					<div className="col-md-1"></div>
+					<div className="col-md-3">
+						<img src="https://jetunisie.com/wp-content/uploads/2018/05/JETV0.png" width="250" height="300" alt="Image" className="img-responsive img-rounded mx-auto"></img>
 					</div>
 					<div className="col-md-1"></div>
-					<div className="col-md-5">
+					<div className="col-md-7" height="300">
 						<h2>The Confederation - Junior Enterprises Of Tunisia (JET)</h2>
 						<p>La JET est la Confédération Tunisienne des Junior Entreprises.
 							Il s’agit d’une structure d’accompagnement, venue

@@ -1,48 +1,29 @@
-.ftco-consult{
+.ftco-consult {
   width: 100%;
 }
 /*.video ftco-video{ 
     background:url('../assets/img/examples/studio-3.jpg');
 }*/
 .parallax {
-    /* The image used */ 
-    background-image: url("../assets/img/hero_3.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .formulaire
-  {
-      background-color: #2F5B96;
-  }
-  .blanc{
-      color :white;
-  }
-  .form-control
-  {
-    background-color: #2F5B96;
-    color : black;
-  }
+  /* The image used */
+  background-image: url("../assets/img/hero_3.jpg");
 
-  /* ----------------- Work with us 2 ---------------------------*/
-  .blue{
-    width: 100%;
-    height: 20vh;
-    background-color:#385985;
-  }
-  .bluewrapper{
-    width: 100%;
-    height:100%;
-    align-items: center;
-  }
-  .bluewrapper > p{
-    color: white;
-    font-size: 2em;
-    align-items: center;
-  }
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formulaire {
+  background-color: #2f5b96;
+}
+.blanc {
+  color: white;
+}
+.form-control {
+  background-color: white;
+  color: black;
+}
