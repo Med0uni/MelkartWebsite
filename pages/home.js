@@ -43,7 +43,7 @@ class DelayedRedirect extends React.Component {
      
             <Partners />
           
-            <Collaborate />  
+            <Collaborate id='collaborate'/>  
           </div>
           )
       }

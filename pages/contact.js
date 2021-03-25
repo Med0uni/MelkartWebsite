@@ -6,6 +6,6 @@ export default function contact(props) {
     return (
     <div >
         <Coord />
-        </div>
+    </div>
     );
   }

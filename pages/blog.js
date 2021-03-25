@@ -17,7 +17,6 @@ export default function blog({posts, page, nbreOfPosts}) {
     <div className="container-xl">
       <h1>Blogs</h1>
       <br/><br/>
-
       <div className="row row-cols-2">
         {posts.map(post => (
           <Link href={`/${post.Slug}`} key={post.id}>
@@ -29,52 +28,39 @@ export default function blog({posts, page, nbreOfPosts}) {
           </Link>
 
         ))} 
-
       </div>
 
 
       <div className="pagination float-right">
-        <button className="btn" onClick={()=> router.push(`/blog?page=${page-1}`) }
+        <button className="btn btn-pag" onClick={()=> router.push(`/blog?page=${page-1}`) }
         disabled ={page <= 1}>&laquo;
         </button>
 
         {elts.map((elt, index, array) => (
           {...index === (page-1) ?   
-            <button className="btn active" onClick={()=> router.push(`/blog?page=${index+1}`)}>
-            {/* {console.log(index+1)} */}
-            {index+1}</button> : 
-            <button className="btn" onClick={()=> router.push(`/blog?page=${index+1}`)}>
-            {/* {console.log(index+1)} */}
-            {index+1}</button> 
+            <button className="btn btn-pag active" onClick={()=> router.push(`/blog?page=${index+1}`)}>{/* {console.log(index+1)} */}{index+1}</button> : 
+            <button className="btn btn-pag" onClick={()=> router.push(`/blog?page=${index+1}`)}>{/* {console.log(index+1)} */}{index+1}</button> 
           }   
         ))}
 
         
-        <button className="btn" onClick={()=> router.push(`/blog?page=${page+1}`) }
+        <button className="btn btn-pag" onClick={()=> router.push(`/blog?page=${page+1}`) }
         disabled={page >= lastPage}>&raquo;
         </button>   
       </div>
 
-      {/* <button className="btn btn-outline-dark"
-        onClick={()=> router.push(`/blog?page=${page-1}`) }
-        disabled={page <= 1} >
-          Previous</button>
-      <button className="btn btn-outline-dark"
-        onClick={()=> router.push(`/blog?page=${page+1}`) }
-        disabled={page >= lastPage} >
-          Next</button> */}
       <br/><br/><br/><br/>
       
 
         <style global jsx>{`
-        .btn{
+        .btn btn-pag{
           color: black;
         }
         .col{
-          padding-top: 5px;
+          
           padding-left: 2.5px;
           padding-right: 2.5px;
-          padding-bottom: 5px;
+          
         }
         .pagination {
           display: inline-block;
