@@ -27,3 +27,52 @@
   background-color: white;
   color: black;
 }
+
+.btn-submit {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #fc6571;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+}
+
+.btn-submit:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #fc6571;
+  color: #000;
+}
+
+.btn-submit:after {
+  content: "";
+  background: #fc6571;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.btn-submit:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.btn-submit:focus {
+  outline: 0;
+}

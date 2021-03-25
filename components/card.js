@@ -11,7 +11,7 @@ export default function Card({post}) {
 
   return (
 
-    <div className="card justify-content-center">
+    <div className="card shadow p-3 mb-5 rounded ">
       <img src={API_URL + post.image[0].url} className="card-img-top" alt={post.title} />
       <div className="card-body h-100">
         <h3 className="card-title font-weight-bolder text-dark">{post.title}</h3>
@@ -21,6 +21,11 @@ export default function Card({post}) {
 
 
       <style jsx>{`
+        .card{
+          background-color: rgb(255,255,248, 0.8);
+          opacity: 1;
+        }
+        
         .card-title{
           color: black;
         }

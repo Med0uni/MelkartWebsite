@@ -32,30 +32,31 @@ export default function Workwithus() {
 				<div className="ftco-heading">
 					<h2 className='blanc'>start a project with us</h2>
 				</div>
+				<br></br><br></br>
 				<form onSubmit={contactUS}>
 					<div className="row form-group">
 						<div className="col-md-6">
 							<label className='blanc' for="fname">First Name</label>
-							<input type="text" id="fname" className="form-control" required/>
+							<input type="text" id="fname" className="form-control" placeholder="First Name" required/>
 						</div>
 
 						<div className="col-md-6">
 							<label className='blanc' for="lname">Last Name</label>
-							<input type="text" id="lname" className="form-control" required/>
+							<input type="text" id="lname" className="form-control" placeholder="Last Name" required/>
 						</div>
 					</div>
 
 					<div className="row form-group">
 						<div className="col-md-12">
 							<label className='blanc' for="email">Email</label>
-							<input type="text" id="email" className="form-control" required/>
+							<input type="text" id="email" className="form-control" placeholder="client@email.com" required/>
 						</div>
 					</div>
 
 					<div className="row form-group">
 						<div className="col-md-12">
 							<label className='blanc' for="subject">Subject</label>
-							<input type="text" id="subject" className="form-control" required/>
+							<input type="text" id="subject" className="form-control" placeholder="i want to work with you on ..." required/>
 						</div>
 					</div>
 
@@ -67,7 +68,7 @@ export default function Workwithus() {
 					</div>
 					
 					<div className="form-group">
-						<input type="submit" value="Send Message" className="btn btn-primary"/>
+						<input type="submit" value="Send" className="btn-submit"/>
 					</div>
 
 				</form>	
