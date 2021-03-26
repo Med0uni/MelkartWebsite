@@ -10,8 +10,8 @@ export default function posts() {
     <div className="recentposts-section">  
     <div className="container">
     <div className="mbr-section-head">
-        <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>Melkart JE Blog</strong></h4>
-        <h5 className="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">Apprenez-en plus sur l’actualité de Junior CentraleSupélec.</h5>
+        <h4 className="mbr-section-title mbr-fonts-style align-center mb-0 display-2 textblack"><strong>Melkart JE Blog</strong></h4>
+        <h5 className="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5 textblack">Apprenez-en plus sur l’actualité de Melkart Junior Entreprise.</h5>
     </div>
     <div className="row mt-4">
         <div className="item features-image сol-12 col-md-6 col-lg-4">
