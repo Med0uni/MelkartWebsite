@@ -17,7 +17,7 @@ function Footer() {
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
-        <div className='row input-areas'>
+        <div className='input-areas'>
           <form>
             <input
               className='footer-input'
@@ -29,79 +29,72 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items '>
+      <div className='container-fluid footer-links'>
+          <div className='side-col'></div>
+          <div className='col-md-3 footer-link-items '>
             <h2>About Us</h2>
             <Link href='/sign-up'>Enicar</Link>
             <Link href='/'>JET</Link>
             <Link href='/'>Melkart</Link>
             <Link href='/'>Our team</Link>
           </div>
-          <div className='footer-link-items'>
+          <div className='col-md-3 footer-link-items'>
             <h2>Contact Us</h2>
-            <Link href='/'>Contact</Link>
+            <Link href='/contact'>Contact</Link>
             <Link href='/'>Support</Link>
             <Link href='/'>Projects</Link>
             <Link href='/'>Sponsorships</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper '>
+          </div>    
+          <div className='col-md-3 footer-link-items '>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link href='https://www.instagram.com/melkart_je'>Instagram</Link>
-            <Link href='https://www.facebook.com/Enicarthage.Junior.Entreprise/'>Facebook</Link>
-            <Link href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured'>Youtube</Link>
-            <Link href='https://www.linkedin.com/company/melkart-je/'>Linkedin</Link>
+            <a href='https://www.instagram.com/melkart_je' target='_blank'>Instagram</a>
+            <a href='https://www.facebook.com/Enicarthage.Junior.Entreprise/' target='_blank'>Facebook</a>
+            <a href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured' target='_blank'>Youtube</a>
+            <a href='https://www.linkedin.com/company/melkart-je/' target='_blank'>Linkedin</a>
           </div>
         </div>
+          <div className='side-col'></div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <small className='website-rights'>Melkart JE © 2021</small>
           <div className='social-icons'>
             <div>
-            <Link
+            <a
               className='social-icon-link facebook'
               href='https://www.facebook.com/Enicarthage.Junior.Entreprise'
               target='_blank'
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
-            </Link> </div>
-            <Link
+            </a> </div>
+            <a
               className='social-icon-link instagram'
               href='https://www.instagram.com/melkart_je'
               target='_blank'
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
-            </Link>
-            <div>
-      <Button
-        variant="link"
-        color="default"
-        className='social-icon-link youtube'
-        startIcon={<YouTubeIcon />}
-        href="https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured"
-      />
-    </div>
-            {/*<Link
+            </a>
+            
+      
+            <a
               className='social-icon-link youtube'
               href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured'
               target='_blank'
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
-            </Link>*/}
-            <Link
+            </a>
+            <a
               className='social-icon-link twitter'
               href='https://www.linkedin.com/company/melkart-je/'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
