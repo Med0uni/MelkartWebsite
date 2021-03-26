@@ -77,23 +77,16 @@ function Footer() {
             >
               <i className='fab fa-instagram' />
             </Link>
-            <div>
-      <Button
-        variant="link"
-        color="default"
-        className='social-icon-link youtube'
-        startIcon={<YouTubeIcon />}
-        href="https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured"
-      />
-    </div>
-            {/*<Link
+            
+      
+            <Link
               className='social-icon-link youtube'
               href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured'
               target='_blank'
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
-            </Link>*/}
+            </Link>
             <Link
               className='social-icon-link twitter'
               href='https://www.linkedin.com/company/melkart-je/'

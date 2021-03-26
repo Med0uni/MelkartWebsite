@@ -12,6 +12,7 @@ import Stats from "../components/statistiques";
 import Temoignage from "../components/temoignage";
 import Partners from "../components/partenaires";
 import Collaborate from "../components/work-with-us";
+import RecentPosts from "../components/recentposts";
 
 import styles from "assets/jss/nextjs-material-kit/pages/components.js";
 
@@ -35,15 +36,13 @@ class DelayedRedirect extends React.Component {
       if (this.state.redirect) {
           return (<div>   
             <Aboutus />
-            <Services />
-            
-            <Stats />
-            
-            <Temoignage />
-     
+            <Services />           
+            <Stats />           
+            <Temoignage /> 
             <Partners />
-          
-            <Collaborate id='collaborate'/>  
+            <Collaborate id='collaborate'/>
+            <RecentPosts/>
+
           </div>
           )
       }

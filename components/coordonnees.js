@@ -49,10 +49,10 @@ import './coordonnees.css';
                             </div>
                             <div className="col-5">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/Enicarthage.Junior.Entreprise/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.instagram.com/melkart_je/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/melkart-je/about/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.facebook.com/Enicarthage.Junior.Entreprise/" target="_blank"><i className="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.instagram.com/melkart_je/" target="_blank"><i className="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/melkart-je/about/" target="_blank"><i className="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured" target="_blank"><i className="fab fa-youtube" aria-hidden="true"></i></a></li>
                                     
                                 </ul>
                             </div>
@@ -111,7 +111,7 @@ import './coordonnees.css';
 						</div>
 
                         <div>
-                            <button class="btn btn--radius-2 btn--red" type="submit">Send</button>
+                            <button className="btn btn--radius-2 btn--red" type="submit">Send</button>
                         </div>
                     </form>
                 </div>
