@@ -22,7 +22,7 @@ export default function Stats() {
               <br></br>
 
               <span className="ftco-counter js-counter" data-from="0" data-to="70" data-speed="5000" data-refresh-interval="50"></span>
-              <span className="ftco-counter-label"> <CountUp end={70}   duration={2.75}/>           <br></br>
+              <span className="ftco-counter-label">+<CountUp end={70}   duration={2.75}/>           <br></br>
                     <h3>JUNIOR ENTREPRENEURS</h3></span>
             </div>
             <div className="col-md-4 text-center animate-box">
@@ -31,7 +31,7 @@ export default function Stats() {
 
               <span className="ftco-counter js-counter" data-from="0" data-to="9" data-speed="5000" data-refresh-interval="50"></span>
 
-              <span className="ftco-counter-label"> <CountUp end={9}   duration={3.75}/>            <br></br>
+              <span className="ftco-counter-label">+<CountUp end={9}   duration={3.75}/>            <br></br>
                    <h3>ANS D'EXPERIENCE</h3></span>
             </div>
             <div className="col-md-4 text-center animate-box">

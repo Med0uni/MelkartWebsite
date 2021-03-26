@@ -54,6 +54,12 @@ export default function Partners() {
                        "The journey within our MELKART Junior Enterprise is the purposeful kind of journey. It is an enthusiastic learning process towards unlocking full potential and civic engagement. It will be the experience that sets the bar high for your next endeavors within civil society."
   
                      </h4>
+                     <div class="user_name">
+                            Janet
+                        </div>
+                        <div class="user_desk">
+                            EX President
+                        </div>
                     
                       </div>
                     </center>
@@ -70,7 +76,12 @@ export default function Partners() {
                        "The journey within our MELKART Junior Enterprise is the purposeful kind of journey. It is an enthusiastic learning process towards unlocking full potential and civic engagement. It will be the experience that sets the bar high for your next endeavors within civil society."
   
                      </h4>
-                    
+                     <div class="user_name">
+                            Janet
+                        </div>
+                        <div class="user_desk">
+                            EX President
+                        </div>
                       </div>
                     </center>
 
@@ -86,7 +97,12 @@ export default function Partners() {
                        "The journey within our MELKART Junior Enterprise is the purposeful kind of journey. It is an enthusiastic learning process towards unlocking full potential and civic engagement. It will be the experience that sets the bar high for your next endeavors within civil society."
   
                      </h4>
-                    
+                     <div class="user_name">
+                            Janet
+                        </div>
+                        <div class="user_desk">
+                            EX President
+                        </div>
                       </div>
                     </center>
 

@@ -10,9 +10,9 @@ export default function Components(props) {
       <div>
       
       <Services />
-      <br></br><br></br>
+      
       <Why />
-      <br></br><br></br>
+     
       <Collaborate />
       
     </div>

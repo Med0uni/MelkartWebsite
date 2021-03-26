@@ -29,24 +29,23 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items '>
+      <div className='container-fluid footer-links'>
+          <div className='side-col'></div>
+          <div className='col-md-3 footer-link-items '>
             <h2>About Us</h2>
             <Link href='/sign-up'>Enicar</Link>
             <Link href='/'>JET</Link>
             <Link href='/'>Melkart</Link>
             <Link href='/'>Our team</Link>
           </div>
-          <div className='footer-link-items'>
+          <div className='col-md-3 footer-link-items'>
             <h2>Contact Us</h2>
             <Link href='/'>Contact</Link>
             <Link href='/'>Support</Link>
             <Link href='/'>Projects</Link>
             <Link href='/'>Sponsorships</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper '>
+          </div>    
+          <div className='col-md-3 footer-link-items '>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link href='https://www.instagram.com/melkart_je'>Instagram</Link>
@@ -55,6 +54,7 @@ function Footer() {
             <Link href='https://www.linkedin.com/company/melkart-je/'>Linkedin</Link>
           </div>
         </div>
+          <div className='side-col'></div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>

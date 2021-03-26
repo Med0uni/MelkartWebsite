@@ -1,9 +1,26 @@
+.title1{
+  color: #385985;
+    font-weight: bold;
+    font-size:30px;
+    padding-bottom: 10px;
+}
+.desc{
+  margin-top: 15px;
+  margin-bottom: 25px;
+    color: #5C5C5C;
+    font-size: 1.2em;
+}
+.icon-box{
+ /* background:#e7e7e7;*/
+  margin-top: 3%;
+  border-radius: 5%;
+}
 .services {
   position: relative;
   padding: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.07);
+  
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -37,29 +54,33 @@
 }
 
 .services .title {
+  font-size:20px;
   font-weight: 600;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 30px;
   position: relative;
   padding-bottom: 15px;
 }
 
 .services .title a {
-  color: #444444;
+  font-size:20px;
+  color: #5C5C5C;
   transition: 0.3s;
 }
 
-.services .title a:hover {
-  color: #2f5b96;
+.icon-box .services .title a:hover {
+  color: #385985;
 }
-
+.title a:hover {
+  color: #385985;
+}
 .services .title::after {
   content: "";
   position: absolute;
   display: block;
   width: 50px;
-  height: 2px;
-  background: #2f5b96;
+  height: 3px;
+  background: #385985;
   bottom: 0;
   left: calc(50% - 25px);
 }

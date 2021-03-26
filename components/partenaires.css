@@ -1,15 +1,15 @@
 .partners-section{
-    padding-top: 6rem;
-    padding-bottom: 3rem;
-    background: linear-gradient(#C5C5C5, #9CA8C1);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(#385985, #5B7299, #9CA8C1);
 }
 
 .display-2 {
     font-family: 'Jost', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.2;
-    color: black;
-    opacity: 0.9;
+    color: white;
+    /*opacity: 0.9;*/
 }
 .align-center {
     text-align: center;}
@@ -18,9 +18,10 @@
         line-height: 1;
         word-break: break-word;
         word-wrap: break-word;
-        font-weight: 400;
-        color: black;
-        opacity: 0.8;
+        font-size: 1.2rem;
+        font-weight: 200;
+        color: white;
+        /*opacity: 0.8;*/
 }
 .mt-4 {
     margin-top: 2rem !important;}

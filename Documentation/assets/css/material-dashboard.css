@@ -902,7 +902,7 @@ h2.title {
 
 .sidebar[data-color="purple"] .nav li.active a,
 .off-canvas-sidebar[data-color="purple"] .nav li.active a {
-    background-color: #9c27b0;
+    background-color: #fff;
     box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
 }
 
@@ -1200,7 +1200,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.btn-default.active {
 .open>.navbar .navbar-nav>li>a.btn.btn-primary.dropdown-toggle,
 .open>.navbar .navbar-nav>li>a.btn.btn-primary.dropdown-toggle:focus,
 .open>.navbar .navbar-nav>li>a.btn.btn-primary.dropdown-toggle:hover {
-    background-color: #9c27b0;
+    background-color: #fff;
     color: #FFFFFF;
 }
 
@@ -1278,7 +1278,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.btn-primary.active {
 .navbar .navbar-nav>li>a.btn.btn-primary.btn-simple:focus,
 .navbar .navbar-nav>li>a.btn.btn-primary.btn-simple:active {
     background-color: transparent;
-    color: #9c27b0;
+    color: #fff;
 }
 
 .btn.btn-info,
@@ -2452,12 +2452,12 @@ h6,
 }
 
 a {
-    color: #9c27b0;
+    color:white;
 }
 
 a:hover,
 a:focus {
-    color: #89229b;
+    color: #fff;
     text-decoration: none;
 }
 

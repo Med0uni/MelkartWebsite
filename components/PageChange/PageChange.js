@@ -33,16 +33,17 @@ const useStyles = makeStyles({
 
 export default function PageChange(props) {
   const classes = useStyles();
-  return (
-   
+  return ( 
+  <div className="transition-container"><h2 class="animate">Melkart Junior Entreprise</h2>
+   {/*
       <div className={classes.wrapperDiv}>
         <div className={classes.iconWrapper}>
           <CircularProgress className={classes.progress} />
         </div>
         <h4 className={classes.title}>
           Loading page contents for: {props.path}
-        </h4>
+        </h4>  */} 
   </div>
-    
+  
   );
 }
