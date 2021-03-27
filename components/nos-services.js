@@ -16,17 +16,17 @@ export default function Services() {
         <div className="row">
           <div className="col-md-4 icon-box">
             <div className="icon"><i className="fas fa-mobile-alt"></i></div>
-            <h4 className="title"><a href="">Développement d'applications Mobiles</a></h4>
+            <h4 className="title"><a>Développement d'applications Mobiles</a></h4>
             <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
           <div className="col-md-4 icon-box">
             <div className="icon"><i className="fas fa-desktop"></i></div>
-            <h4 className="title"><a href="">Développement d'applications Desktop</a></h4>
+            <h4 className="title"><a>Développement d'applications Desktop</a></h4>
             <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
           <div className="col-md-4 icon-box">
             <div className="icon"><i className="fas fa-globe"></i></div>
-            <h4 className="title"><a href="">Développement de sites web</a></h4>
+            <h4 className="title"><a>Développement de sites<br></br> web</a></h4>
             <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
                 

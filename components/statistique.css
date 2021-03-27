@@ -13,9 +13,9 @@
     
     margin-bottom: 1em;
     display: block;
-    line-height: 40px;
+    line-height: 1.5em;
     letter-spacing: -0.05em;
-    font-size: 42px;
+    font-size: 2em;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.1em;
    }
