@@ -40,7 +40,7 @@ function Footer() {
           </div>
           <div className='col-md-3 footer-link-items'>
             <h2>Contact Us</h2>
-            <Link href='/'>Contact</Link>
+            <Link href='/contact'>Contact</Link>
             <Link href='/'>Support</Link>
             <Link href='/'>Projects</Link>
             <Link href='/'>Sponsorships</Link>
@@ -48,10 +48,10 @@ function Footer() {
           <div className='col-md-3 footer-link-items '>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link href='https://www.instagram.com/melkart_je'>Instagram</Link>
-            <Link href='https://www.facebook.com/Enicarthage.Junior.Entreprise/'>Facebook</Link>
-            <Link href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured'>Youtube</Link>
-            <Link href='https://www.linkedin.com/company/melkart-je/'>Linkedin</Link>
+            <a href='https://www.instagram.com/melkart_je' target='_blank'>Instagram</a>
+            <a href='https://www.facebook.com/Enicarthage.Junior.Entreprise/' target='_blank'>Facebook</a>
+            <a href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured' target='_blank'>Youtube</a>
+            <a href='https://www.linkedin.com/company/melkart-je/' target='_blank'>Linkedin</a>
           </div>
         </div>
           <div className='side-col'></div>
@@ -61,40 +61,40 @@ function Footer() {
           <small className='website-rights'>Melkart JE © 2021</small>
           <div className='social-icons'>
             <div>
-            <Link
+            <a
               className='social-icon-link facebook'
               href='https://www.facebook.com/Enicarthage.Junior.Entreprise'
               target='_blank'
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
-            </Link> </div>
-            <Link
+            </a> </div>
+            <a
               className='social-icon-link instagram'
               href='https://www.instagram.com/melkart_je'
               target='_blank'
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
-            </Link>
+            </a>
             
       
-            <Link
+            <a
               className='social-icon-link youtube'
               href='https://www.youtube.com/channel/UCB3dah_szpBGypXHMwuTveg/featured'
               target='_blank'
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link twitter'
               href='https://www.linkedin.com/company/melkart-je/'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
