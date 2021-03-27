@@ -88,7 +88,7 @@ function Footer() {
               <i className='fab fa-youtube' />
             </a>
             <a
-              className='social-icon-link twitter'
+              className='social-icon-link linkedin'
               href='https://www.linkedin.com/company/melkart-je/'
               target='_blank'
               aria-label='LinkedIn'

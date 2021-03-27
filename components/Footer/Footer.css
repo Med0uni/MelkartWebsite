@@ -113,8 +113,17 @@
   /* Social Icons */
   .social-icon-link {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
   }
+  .facebook:hover {
+    color: #4267B2;}
+    .instagram:hover {
+      color:(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);}
+      .youtube:hover {
+        color: #FF0000;}
+        .linkedin:hover {
+          color: #0072b1;}
+          
   
   .social-media {
     max-width: 1000px;
@@ -157,11 +166,7 @@
   }
   
   @media screen and (max-width: 820px) {
-    .footer-links {
-      padding-top: 2rem;
-    }
-  
-  
+   
     .btn {
       width: 100%;
     }
