@@ -77,59 +77,56 @@
   outline: 0;
 }
 
-
 /*/////////////////////////// work with us 2 //////////////////*/
 
-.blue{
+.blue {
   margin-top: 10vh;
   height: 25vh;
-  background-color:#385985;
+  background-color: #385985;
   cursor: pointer;
 }
-.blue:hover{
-  background-color:#9CA8C1;
+.blue:hover {
+  background-color: #9ca8c1;
 }
-.bluewrapper{
-width: 100%;
+.bluewrapper {
+  width: 100%;
   padding-top: 20px;
   display: table;
   margin: 0 auto;
- 
 }
 
-.bluewrapper > p{
-  
+.bluewrapper > p {
   line-height: 1.2;
   color: white;
 }
 
-.p1{
+.p1 {
   font-size: 2.5em;
   font-weight: 700;
   color: white;
 }
-.p2{
+.p2 {
   font-size: 2em;
   font-weight: 300;
   color: white;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .p1 {
     font-size: 2rem;
   }
-  .p2{
-      font-size: 1.5rem;
+  .p2 {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 560px) {
   .p1 {
     font-size: 1.5rem;
   }
-  .p2{
-      font-size: 1rem;
+  .p2 {
+    font-size: 1rem;
   }
-  .bluewrapper{
-      padding-top: 30px;}
+  .bluewrapper {
+    padding-top: 30px;
+  }
 }
-
