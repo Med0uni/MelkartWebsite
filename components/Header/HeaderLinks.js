@@ -52,7 +52,7 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           <ActiveLink activeClassName="active" href="/home">
-          <p className="nav-link">Home</p>
+          <p className="nav-link">Acceuil</p>
           </ActiveLink>
           {/*<Link href="/"><div>Home</div></Link>*/}
         </Button>
@@ -65,7 +65,7 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           <ActiveLink activeClassName="active" href="/structure">
-          <p className="nav-link">About</p>
+          <p className="nav-link">Qui Sommes Nous?</p>
           </ActiveLink>
         </Button>
       </ListItem>
@@ -78,7 +78,7 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           <ActiveLink activeClassName="active" href="/prestation">
-          <p className="nav-link">Prestation</p>
+          <p className="nav-link">Prestations</p>
           </ActiveLink>
         </Button>
       </ListItem>

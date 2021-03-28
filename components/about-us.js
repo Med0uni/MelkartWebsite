@@ -9,7 +9,7 @@ export default function About() {
       <div className="container-xl">
         <div className="row">
           <div className="col-md-7">
-            <h3>Who are we</h3>
+            <h3>Qui Sommes Nous?</h3>
             <h2>La MELKART Junior Enterprise Enicarthage</h2>
             <p>La MELKART Junior Entreprise a été créée en 2012. C’est une organisation
             estudiantine localisée à l’ENICarthage (Ecole Nationale d’Ingénieurs de

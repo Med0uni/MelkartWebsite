@@ -1,7 +1,8 @@
 .partners-section{
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
-    background: linear-gradient(#385985, #5B7299, #9CA8C1);
+    /*background: linear-gradient(#385985, #5B7299, #9CA8C1);*/
+
 }
 
 .display-2 {
@@ -14,13 +15,13 @@
 .align-center {
     text-align: center;}
 
-.display-5{
+.title3{
         line-height: 1;
         word-break: break-word;
         word-wrap: break-word;
-        font-size: 1.2rem;
+        font-size: 2rem;
         font-weight: 200;
-        color: white;
+        color: #8F8F8F;
         /*opacity: 0.8;*/
 }
 .mt-4 {
@@ -35,7 +36,7 @@
     transition: all 0.3s;
     height: fit-content;
  
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     margin-bottom: 1rem;
     background: transparent;
     border: none;
@@ -45,10 +46,25 @@
     -ms-flex-pack: center!important;
     justify-content: center!important;
 }
-.row {
+.row{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;}
+
+.containerlogos{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 767px) {
+    .containerlogos{
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+  }
