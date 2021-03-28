@@ -12,9 +12,9 @@ export default function Enicar() {
 					</div>
 					<div className="col-md-1"></div>
 					<div className="col-md-7">
-						<h2>The National Engineering School of Carthage (ENICarthage)</h2>
-						<p>Founded in 2002, the ENICarthage offers several specialized training courses with a Master's or Engineering degree.
-              Engineer training: Mechatronics Engineering, Computer Engineering, Infotronics Engineering and Industrial Engineering.
+						<h2>L'École Nationale d'Ingénieurs de Carthage (ENICarthage)</h2>
+						<p>Crée en 2002, l’ENICarthage offre plusieurs formations spécialisées par un diplôme de Mastère ou d’Ingénieur.
+Formation d’Ingénieurs: Génie Mécatronique, Génie Informatique, Génie Infotronique et Génie Industriel.
 					 </p>
 					</div>
 				</div>
