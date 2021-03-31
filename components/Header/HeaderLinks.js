@@ -65,7 +65,7 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           <ActiveLink activeClassName="active" href="/structure">
-          <p className="nav-link">Qui Sommes Nous?</p>
+          <p className="nav-link">À propos</p>
           </ActiveLink>
         </Button>
       </ListItem>

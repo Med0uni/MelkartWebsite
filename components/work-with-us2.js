@@ -35,9 +35,7 @@ export default function Workwithus2() {
             <p className="p2">La Melkart Junior Entreprise est là pour vous sauver la vie!</p>
         </div>
         
-        
-
-        <div className="modal fade page-wrapper p-t-80 p-b-50" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal fade page-wrapper p-t-80 p-b-50" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className=" wrapper wrapper--w790">
                 <div className="modal-dialog modal-lg card card-5" role="document">
                     <div className="modal-content">

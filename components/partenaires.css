@@ -2,7 +2,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     /*background: linear-gradient(#385985, #5B7299, #9CA8C1);*/
-
+    background: rgb(240, 238, 238);
 }
 
 .display-2 {
@@ -51,11 +51,10 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;}
+    }
 
 .containerlogos{
-    width: 100%;
+
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;

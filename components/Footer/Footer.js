@@ -11,11 +11,11 @@ function Footer() {
     <div className='footer-container container-fluid'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Melkart newsletter to receive our best blogs
+        Rejoignez la newsletter Melkart pour recevoir nos meilleurs blogs
           {/* https://dev.to/itnext/setting-up-a-news-letter-with-react-and-mailchimp-2f6p */}
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+        Vous pouvez vous désinscrire à tout moment.
         </p>
         <div className='input-areas'>
           <form>
@@ -29,21 +29,21 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div className='container-fluid footer-links'>
+      <div className='container-fluid footer-links invizible '>
           <div className='side-col'></div>
           <div className='col-md-3 footer-link-items '>
-            <h2>About Us</h2>
-            <Link href='/sign-up'>Enicar</Link>
+            <h2>À propos</h2>
+            <Link href='/sign-up'>ENI Carthage</Link>
             <Link href='/'>JET</Link>
             <Link href='/'>Melkart</Link>
-            <Link href='/'>Our team</Link>
+            <Link href='/'>Notre équipe</Link>
           </div>
           <div className='col-md-3 footer-link-items'>
             <h2>Contact Us</h2>
             <Link href='/contact'>Contact</Link>
             <Link href='/'>Support</Link>
-            <Link href='/'>Projects</Link>
-            <Link href='/'>Sponsorships</Link>
+            <Link href='/'>Projets</Link>
+            <Link href='/'>partenariat</Link>
           </div>    
           <div className='col-md-3 footer-link-items '>
           <div className='footer-link-items'>

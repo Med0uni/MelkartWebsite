@@ -17,7 +17,7 @@ export default function Components(props) {
         <Infoecole />
         <br></br>
         <Team />
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br>
       </div>
     );
   }

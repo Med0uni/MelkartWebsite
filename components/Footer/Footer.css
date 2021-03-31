@@ -212,12 +212,16 @@
       padding-left: 10px;
     }
   }
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 570px) {
     .side-col{
       width: 0%;
       padding-right: 10px;
       padding-left: 10px;
     }
+  .footer-link-items{ display: none;}
+  .social-icon-link { font-size: 24px;}
+  .website-rights { font-size: 15px;}
+  .footer-subscription { padding-bottom: 10px;}
   }
  
  

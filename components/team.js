@@ -21,8 +21,8 @@ export default function Team() {
 	  <div className="container">
 		 	
 		 <h1>Our Team</h1>
-        <div className="row">
-            <div className="col-md-3 profile  text-center">
+        <div className="teamrow">
+            <div className="col-md-3 col-sm-6 profile  text-center">
                <div className="img-box" >
                  <img src ={pres} className="img-responsive"></img>
                     <ul>
@@ -32,13 +32,13 @@ export default function Team() {
                     </ul>
                 </div>
                 <h2>Chedly zouche</h2>
-                <h3>President</h3>
+                <h3>Président</h3>
 
 		        </div>
        
       
       
-            <div className="col-md-3 profile  text-center">
+            <div className="col-md-3 col-sm-6 profile  text-center">
                <div className="img-box">
                  <img src ={vp} className="img-responsive"></img>
                     <ul>
@@ -48,11 +48,12 @@ export default function Team() {
                     </ul>
                 </div>
 				<h2>Feres Nefzi</h2>
-                <h3>Vice President</h3>
+                <h3>
+                  Vice président</h3>
 
 
 		        </div>
-              <div className="col-md-3 profile text-center">
+              <div className="col-md-3 col-sm-6 profile text-center">
                <div className="img-box">
                  <img src ={sec} className="img-responsive"></img>
                     <ul>
@@ -62,10 +63,11 @@ export default function Team() {
                     </ul>
                 </div>
 				<h2>Alia Chibani</h2>
-                <h3>General Secretory</h3>
+                <h3>
+                Secrétaire générale</h3>
                </div>
 			   
-            <div className="col-md-3 profile text-center">
+            <div className="col-md-3 col-sm-6 profile text-center">
                <div className="img-box">
                  <img src ={tres} className="img-responsive"></img>
                     <ul>
@@ -75,15 +77,15 @@ export default function Team() {
                     </ul>
                 </div>
 				<h2>Amani Mittichi</h2>
-                <h3>Treasurer</h3>
+                <h3>Trésorière</h3>
                </div>
             
            
 
              
          </div>
-         <div className="row">
-         <div className="col-md-3 profile  text-center">
+         <div className="teamrow">
+         <div className="col-md-3 col-sm-6 profile  text-center">
                <div className="img-box">
                  <img src ={pp} className="img-responsive"></img>
                     <ul>
@@ -93,11 +95,11 @@ export default function Team() {
                     </ul>
                 </div>
 				<h2>Khalil Jendoubi</h2>
-                <h3> Project and Prospecting Manager</h3>
+                <h3> Responsable projet et prospection</h3>
 
 
 		        </div>
-              <div className="col-md-3 profile text-center">
+              <div className="col-md-3 col-sm-6 profile text-center">
                <div className="img-box">
                  <img src ={m} className="img-responsive"></img>
                     <ul>
@@ -107,10 +109,11 @@ export default function Team() {
                     </ul>
                 </div>
 				<h2>Rania Ourari</h2>
-                <h3>Marketing Manager</h3>
+                <h3>
+                  Responsable marketing</h3>
                </div>
 
-			   <div className="col-md-3 profile text-center">
+			   <div className="col-md-3 col-sm-6 profile text-center">
                <div className="img-box">
                  <img src ={dev} className="img-responsive"></img>
                     <ul>
@@ -120,12 +123,12 @@ export default function Team() {
                     </ul>
                 </div>
 				<h2>Eslem Chihaoui</h2>
-                <h3>Business Development Manger</h3>
+                <h3>Responsable développement commercial</h3>
                </div>
 
 			    
 			   
-               <div className="col-md-3  profile text-center">
+               <div className="col-md-3 col-sm-6 profile text-center">
                <div className="img-box" >
                  <img src ={hr} className="img-responsive"></img>
                     <ul>
@@ -135,7 +138,7 @@ export default function Team() {
                     </ul>
                 </div>
 				<h2>Yasmine Mgarrech</h2>
-                <h3>Human Ressources and training Manager</h3>
+                <h3>Responsable ressources humaines et formation</h3>
                  
 		        </div>
             </div>
